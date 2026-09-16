@@ -1,7 +1,6 @@
 """
 Purple Team Automation — Scenario 1: S3 Misconfiguration & Data Exfiltration
 CloudGoat scenario: cloud_breach_s3
-Author: Omar (EY Internship — Purple Team Project)
 
 Attack chain:
   Step 1 — SSRF: exploit misconfigured nginx reverse proxy to reach EC2 metadata service

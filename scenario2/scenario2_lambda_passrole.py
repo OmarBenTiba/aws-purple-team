@@ -1,7 +1,6 @@
 """
 Purple Team Automation — Scenario 2: Over-permissioned Lambda via PassRole
 CloudGoat scenario: lambda_privesc
-Author: Omar (EY Internship — Purple Team Project)
 
 Attack chain:
   Step 1 — Recon: enumerate IAM roles available to chris

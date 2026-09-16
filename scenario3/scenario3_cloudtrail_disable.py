@@ -1,6 +1,5 @@
 """
 Purple Team Automation — Scenario 3: CloudTrail Disabling
-Author: Omar (EY Internship — Purple Team Project)
 
 Attack chain:
   Step 1 — Recon: find the active CloudTrail trail and confirm it's logging

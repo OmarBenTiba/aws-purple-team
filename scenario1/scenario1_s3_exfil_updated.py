@@ -1,7 +1,7 @@
 """
 Purple Team Automation — Scenario 1: S3 Misconfiguration & Data Exfiltration
 CloudGoat scenario: cloud_breach_s3
-Author: Omar (EY Internship — Purple Team Project)
+
 
 Attack chain:
   Step 1 — SSRF: exploit misconfigured nginx reverse proxy to reach EC2 metadata service
@@ -34,7 +34,7 @@ from datetime import datetime
 # ============================================================
 # CONFIG — edit these values before running on the target lab
 # ============================================================
-EC2_IP  = "13.218.149.239"   # provided by CloudGoat after deployment
+EC2_IP  = "100.53.52.115"   # provided by CloudGoat after deployment
 REGION  = "us-east-1"
 LOG_FILE = "attack_log_scenario1.txt"
 # ============================================================

@@ -1,0 +1,9 @@
+# Exclude attack logs — contain real account data
+*.txt
+# Exclude exfiltrated data
+**/exfil/
+# Exclude CloudGoat state files
+*.tfstate
+*.tfvars
+__pycache__/
+*.pyc
